@@ -10,7 +10,7 @@ function Footer() {
     <section className='footer-section'>
       <div className='footer-container'>
         <a href='#home' className='logo'>
-          pliant
+          Tier Money
         </a>
         <ul className='social-icons'>
           <li className='social-icon'>

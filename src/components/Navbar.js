@@ -25,7 +25,7 @@ function Navbar() {
         <ul className='nav-links'>
           <li className='nav-link'>
             <a href='#home' className='logo'>
-              pliant
+              Tier Money
             </a>
           </li>
           <li className='nav-link'>
