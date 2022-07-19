@@ -4,13 +4,13 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-
+import logo from "../images/logo.png";
 function Footer() {
   return (
     <section className='footer-section'>
       <div className='footer-container'>
         <a href='#home' className='logo'>
-          Tier Money
+          <img src={logo} alt='Tier Money' />
         </a>
         <ul className='social-icons'>
           <li className='social-icon'>

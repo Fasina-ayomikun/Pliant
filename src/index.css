@@ -94,6 +94,9 @@ ul {
 .toggle-btn {
   display: none;
 }
+.logo > img {
+  height: 50px;
+}
 .fixed-nav {
   position: fixed;
   top: 0;

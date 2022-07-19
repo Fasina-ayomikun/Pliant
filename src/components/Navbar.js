@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { Button } from "@mui/material";
 import { theme } from "..";
+import logo from "../images/logo.png";
 function Navbar() {
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
@@ -25,7 +26,7 @@ function Navbar() {
         <ul className='nav-links'>
           <li className='nav-link'>
             <a href='#home' className='logo'>
-              Tier Money
+              <img src={logo} alt='Tier Money' />
             </a>
           </li>
           <li className='nav-link'>
